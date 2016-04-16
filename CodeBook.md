@@ -1,6 +1,7 @@
 ## variables
 
 subject: unique number for each subject 1:30
+
 label: a label name for each activity
                            "WALKING"
                            "WALKING_UPSTAIRS"
