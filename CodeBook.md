@@ -33,7 +33,7 @@ n=68 columns
 
 from each of these variables the mean and standard deviation was calculated.
 
-Transformation: aggr.data
+## Transformation: aggr.data
 
 All the values are means, aggregated over 30 subjects and 6 activities, 
 The resulting dataset is 180 rows by 68 columns.
