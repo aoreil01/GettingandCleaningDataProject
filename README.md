@@ -8,7 +8,8 @@
     2. Extracts only the measurements on the mean and standard deviation for each measurement.
     3. Uses descriptive activity names to name the activities in the data set
     4. Appropriately labels the data set with descriptive variable names.
-    5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+    5. From the data set in step 4, creates a second, independent tidy data set with the average 
+    of each variable for each activity and each subject.
     
 testTrain
         All 6 datasets (test.labels, test.subjects, test.data, train.labels, train.subjects & train.data)
@@ -32,7 +33,8 @@ labels
 
 good.colnames
 
-        A list of the column names from the features.mean.std table, in lower case with all alphanumeric chracters removed.
+        A list of the column names from the features.mean.std table, in lower case with all 
+        alphanumeric chracters removed.
 
 aggr.data
 
