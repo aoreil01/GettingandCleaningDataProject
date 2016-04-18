@@ -48,17 +48,17 @@ All six data sets are merged into a sing data frame called testTrain
 
     2. Extracts only the measurements on the mean and standard deviation for each measurement.
     
-the features.txt file is read into a table called features.
+The features.txt file is read into a table called features.
 the features tables is filtered for only data that contains 'mean' or 'std' and placed into a table
-called features.mean.std
+called features.mean.std, which is then used to filter out columns in the testTrain data frame, and produces the data.mean.std data frame.
     
     3. Uses descriptive activity names to name the activities in the data set
     
-the activity_labels.txt file is read into a table called labels which are used to replace the names of the activites in data.mean.std
+The activity_labels.txt file is read into a table called labels which are used to replace the names of the activites in data.mean.std
     
     4. Appropriately labels the data set with descriptive variable names.
-    
-the column names are extracted out of the data.mean.std and cleaned so that they are lower case and non-alphanumeric
+
+The column names are extracted out of the data.mean.std and cleaned so that they are lower case and non-alphanumeric
 characters are removed. this finished the non-aggregated data frame.
     
     5. From the data set in step 4, creates a second, independent tidy data set with the average 
