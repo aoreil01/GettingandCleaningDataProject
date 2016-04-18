@@ -42,6 +42,7 @@ A data frame is created called aggr.data with the data from data.mean.std but ag
 Data frames and tables:
 
 testTrain
+
         All 6 datasets (test.labels, test.subjects, test.data, train.labels, train.subjects & train.data)
         combined into a single data frame.
 
