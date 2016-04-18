@@ -16,12 +16,12 @@ The script follows the steps outlined in the assignment
 
     1. Merges the training and the test sets to create one data set.
 
-All six data sets are merged into a sing data frame called testTrain
+All six data sets are merged into a single data frame called testTrain
 
     2. Extracts only the measurements on the mean and standard deviation for each measurement.
     
 The features.txt file is read into a table called features.
-the features tables is filtered for only data that contains 'mean' or 'std' and placed into a table
+The features tables is filtered for only data that contains 'mean' or 'std' and placed into a table
 called features.mean.std, which is then used to filter out columns in the testTrain data frame, and produces the data.mean.std data frame.
     
     3. Uses descriptive activity names to name the activities in the data set
